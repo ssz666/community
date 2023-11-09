@@ -7,6 +7,11 @@ public class LoginTicket {
     private int id;
     private int userId;
     private String ticket;
+
+    public int getStatus() {
+        return status;
+    }
+
     private int status;
     private Date expired;
 
